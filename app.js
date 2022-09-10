@@ -36,8 +36,13 @@ switch (birthMonth) {
   case "August":
     console.log("Summer");
     break;
-  default:
+  case "September":
+  case "October":
+  case "November":
     console.log("Autumn");
+    break;
+  default:
+    console.log("That's not a valid month");
 }
 
 //Exercise 3
